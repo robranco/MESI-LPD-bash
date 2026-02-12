@@ -1,0 +1,443 @@
+[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: Informe as datas utilizando a abreviação do mês em inglês (ex.: Feb 04).
+Data inicial (MMM DD): Data final (MMM DD): IPs e tentativas falhadas no intervalo:
+Endereço IP         | Tentativas
+---------------------+-----------
+192.168.20.89        | 2         
+192.168.156.188      | 2         
+192.168.99.200       | 2         
+192.168.77.44        | 2         
+192.168.10.55        | 2         
+192.168.66.12        | 2         
+192.168.10.88        | 2         
+192.168.50.180       | 2         
+192.168.74.132       | 2         
+192.168.45.201       | 2         
+192.168.38.221       | 2         
+192.168.66.99        | 2         
+192.168.55.99        | 2         
+192.168.45.120       | 2         
+192.168.1.50         | 22        
+192.168.56.78        | 2         
+192.168.154.240      | 2         
+192.168.29.158       | 2         
+45.33.12.4           | 1         
+192.168.90.200       | 2         
+192.168.70.134       | 2         
+192.168.91.144       | 2         
+192.168.88.201       | 2         
+192.168.102.56       | 2         
+192.168.22.33        | 1         
+192.168.88.77        | 2         
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: Informe as datas utilizando a abreviação do mês em inglês (ex.: Feb 04).
+Data inicial (MMM DD): Data final (MMM DD): IPs, tentativas, primeira e última ocorrência:
+IP                   | Tentativas | Primeira             | Última             
+---------------------+-----------+----------------------+----------------------
+192.168.20.89        | 2          | 2026-02-11 02:18:50  | 2026-02-11 02:18:52 
+192.168.156.188      | 2          | 2026-02-04 07:03:29  | 2026-02-04 07:03:31 
+192.168.99.200       | 2          | 2026-02-06 08:10:44  | 2026-02-06 08:10:46 
+192.168.77.44        | 2          | 2026-02-04 07:12:50  | 2026-02-04 07:12:52 
+192.168.10.55        | 2          | 2026-02-04 07:10:12  | 2026-02-04 07:10:14 
+192.168.66.12        | 2          | 2026-02-04 07:50:10  | 2026-02-04 07:50:12 
+192.168.10.88        | 2          | 2026-02-04 08:25:11  | 2026-02-04 08:25:13 
+192.168.50.180       | 2          | 2026-02-07 06:30:11  | 2026-02-07 06:30:13 
+192.168.74.132       | 2          | 2026-02-10 09:27:14  | 2026-02-10 09:27:16 
+192.168.45.201       | 2          | 2026-02-10 04:12:33  | 2026-02-10 04:12:35 
+192.168.38.221       | 2          | 2026-02-12 05:10:22  | 2026-02-12 05:10:24 
+192.168.66.99        | 2          | 2026-02-04 08:32:19  | 2026-02-04 08:32:21 
+192.168.55.99        | 2          | 2026-02-04 07:22:30  | 2026-02-04 07:22:32 
+192.168.45.120       | 2          | 2026-02-05 06:15:33  | 2026-02-05 06:15:35 
+192.168.1.50         | 22         | 2026-02-08 08:12:35  | 2026-02-10 20:02:08 
+192.168.56.78        | 2          | 2026-02-09 07:05:18  | 2026-02-09 07:05:20 
+192.168.154.240      | 2          | 2026-02-04 06:54:17  | 2026-02-04 06:54:19 
+192.168.29.158       | 2          | 2026-02-12 11:21:18  | 2026-02-12 11:21:20 
+45.33.12.4           | 1          | 2026-02-10 20:01:25  | 2026-02-10 20:01:25 
+192.168.90.200       | 2          | 2026-02-04 08:19:45  | 2026-02-04 08:19:47 
+192.168.70.134       | 2          | 2026-02-08 05:42:10  | 2026-02-08 05:42:12 
+192.168.91.144       | 2          | 2026-02-11 12:34:09  | 2026-02-11 12:34:11 
+192.168.88.201       | 2          | 2026-02-08 08:12:34  | 2026-02-08 08:12:36 
+192.168.102.56       | 2          | 2026-02-09 10:15:42  | 2026-02-09 10:15:44 
+192.168.22.33        | 1          | 2026-02-04 07:30:45  | 2026-02-04 07:30:45 
+192.168.88.77        | 2          | 2026-02-04 07:40:29  | 2026-02-04 07:40:31 
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: Usuário        | IP              | Login                | Logout              
+----------------+----------------+----------------------+----------------------
+user1           | 192.168.10.55   | 2026-02-04 07:10:16  | Sem logout          
+user2           | 192.168.22.33   | 2026-02-04 07:30:47  | Sem logout          
+user1           | 192.168.21.45   | 2026-02-04 08:22:30  | Sem logout          
+user2           | 192.168.33.77   | 2026-02-04 08:28:54  | Sem logout          
+user1           | 192.168.21.45   | 2026-02-04 08:34:45  | Sem logout          
+user2           | 192.168.33.77   | 2026-02-05 07:45:12  | Sem logout          
+user1           | 192.168.21.45   | 2026-02-06 09:20:33  | Sem logout          
+user2           | 192.168.33.77   | 2026-02-07 07:55:42  | Sem logout          
+user1           | 192.168.21.45   | 2026-02-08 06:20:45  | Sem logout          
+user2           | 192.168.33.77   | 2026-02-09 09:33:56  | Sem logout          
+user3           | 192.168.98.56   | 2026-02-10 06:45:29  | Sem logout          
+admin           | 192.168.1.50    | 2026-02-10 20:02:15  | 2026-02-10 20:15:45 
+joao            | 10.0.0.5        | 2026-02-10 20:05:20  | 2026-02-10 20:45:10 
+user4           | 192.168.65.112  | 2026-02-11 07:55:41  | Sem logout          
+user5           | 192.168.78.190  | 2026-02-12 08:45:56  | Sem logout          
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: Usuário: user1 | IP sucesso: 192.168.10.55 | Login: 2026-02-04 07:10:16 | Logout: Sem logout
+IPs com falha para user1: 192.168.10.55 192.168.10.55 
+---------------------------------------------
+Usuário: user2 | IP sucesso: 192.168.22.33 | Login: 2026-02-04 07:30:47 | Logout: Sem logout
+IPs com falha para user2: 192.168.22.33 192.168.1.50 192.168.1.50 
+---------------------------------------------
+Usuário: user1 | IP sucesso: 192.168.21.45 | Login: 2026-02-04 08:22:30 | Logout: Sem logout
+IPs com falha para user1: 192.168.10.55 192.168.10.55 
+---------------------------------------------
+Usuário: user2 | IP sucesso: 192.168.33.77 | Login: 2026-02-04 08:28:54 | Logout: Sem logout
+IPs com falha para user2: 192.168.22.33 192.168.1.50 192.168.1.50 
+---------------------------------------------
+Usuário: user1 | IP sucesso: 192.168.21.45 | Login: 2026-02-04 08:34:45 | Logout: Sem logout
+IPs com falha para user1: 192.168.10.55 192.168.10.55 
+---------------------------------------------
+Usuário: user2 | IP sucesso: 192.168.33.77 | Login: 2026-02-05 07:45:12 | Logout: Sem logout
+IPs com falha para user2: 192.168.22.33 192.168.1.50 192.168.1.50 
+---------------------------------------------
+Usuário: user1 | IP sucesso: 192.168.21.45 | Login: 2026-02-06 09:20:33 | Logout: Sem logout
+IPs com falha para user1: 192.168.10.55 192.168.10.55 
+---------------------------------------------
+Usuário: user2 | IP sucesso: 192.168.33.77 | Login: 2026-02-07 07:55:42 | Logout: Sem logout
+IPs com falha para user2: 192.168.22.33 192.168.1.50 192.168.1.50 
+---------------------------------------------
+Usuário: user1 | IP sucesso: 192.168.21.45 | Login: 2026-02-08 06:20:45 | Logout: Sem logout
+IPs com falha para user1: 192.168.10.55 192.168.10.55 
+---------------------------------------------
+Usuário: user2 | IP sucesso: 192.168.33.77 | Login: 2026-02-09 09:33:56 | Logout: Sem logout
+IPs com falha para user2: 192.168.22.33 192.168.1.50 192.168.1.50 
+---------------------------------------------
+Usuário: user3 | IP sucesso: 192.168.98.56 | Login: 2026-02-10 06:45:29 | Logout: Sem logout
+Sem falhas registadas para este usuário.
+---------------------------------------------
+Usuário: admin | IP sucesso: 192.168.1.50 | Login: 2026-02-10 20:02:15 | Logout: 2026-02-10 20:15:45
+IPs com falha para admin: 192.168.90.200 192.168.88.201 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 192.168.1.50 
+---------------------------------------------
+Usuário: joao | IP sucesso: 10.0.0.5 | Login: 2026-02-10 20:05:20 | Logout: 2026-02-10 20:45:10
+Sem falhas registadas para este usuário.
+---------------------------------------------
+Usuário: user4 | IP sucesso: 192.168.65.112 | Login: 2026-02-11 07:55:41 | Logout: Sem logout
+Sem falhas registadas para este usuário.
+---------------------------------------------
+Usuário: user5 | IP sucesso: 192.168.78.190 | Login: 2026-02-12 08:45:56 | Logout: Sem logout
+Sem falhas registadas para este usuário.
+---------------------------------------------
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: Iniciando port scan básico no IP 192.168.20.89 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.156.188 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.99.200 (portas 22,80,443,3389).
+nc: connect to 192.168.20.89 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.156.188 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.99.200 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.20.89 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.156.188 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.99.200 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.20.89 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.156.188 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.99.200 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.20.89 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.156.188 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.20.89.
+Scan finalizado para 192.168.156.188.
+nc: connect to 192.168.99.200 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.99.200.
+Iniciando port scan básico no IP 192.168.77.44 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.10.55 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.66.12 (portas 22,80,443,3389).
+nc: connect to 192.168.77.44 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.55 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.77.44 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.55 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.77.44 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.55 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.55 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.77.44 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.66.12.
+Scan finalizado para 192.168.10.55.
+Scan finalizado para 192.168.77.44.
+Iniciando port scan básico no IP 192.168.10.88 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.50.180 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.74.132 (portas 22,80,443,3389).
+nc: connect to 192.168.10.88 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.50.180 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.74.132 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.88 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.74.132 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.50.180 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.88 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.50.180 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.74.132 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.10.88 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.50.180 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.74.132 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.10.88.
+Scan finalizado para 192.168.50.180.
+Scan finalizado para 192.168.74.132.
+Iniciando port scan básico no IP 192.168.45.201 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.66.99 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.38.221 (portas 22,80,443,3389).
+nc: connect to 192.168.45.201 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.38.221 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.99 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.201 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.38.221 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.99 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.201 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.38.221 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.99 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.201 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.45.201.
+nc: connect to 192.168.38.221 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.99 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.38.221.
+Scan finalizado para 192.168.66.99.
+Iniciando port scan básico no IP 192.168.55.99 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.45.120 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.1.50 (portas 22,80,443,3389).
+nc: connect to 192.168.55.99 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.120 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.1.50 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.55.99 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.120 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.1.50 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.55.99 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.120 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.1.50 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.55.99 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.45.120 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.55.99.
+Scan finalizado para 192.168.45.120.
+nc: connect to 192.168.1.50 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.1.50.
+Iniciando port scan básico no IP 192.168.56.78 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.154.240 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.29.158 (portas 22,80,443,3389).
+nc: connect to 192.168.56.78 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.154.240 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.29.158 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.154.240 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.56.78 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.29.158 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.56.78 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.154.240 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.29.158 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.154.240 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.56.78 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.154.240.
+Scan finalizado para 192.168.56.78.
+nc: connect to 192.168.29.158 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.29.158.
+Iniciando port scan básico no IP 45.33.12.4 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.90.200 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.70.134 (portas 22,80,443,3389).
+Connection to 45.33.12.4 22 port [tcp/ssh] succeeded!
+Connection to 45.33.12.4 80 port [tcp/http] succeeded!
+Connection to 45.33.12.4 443 port [tcp/https] succeeded!
+nc: connect to 45.33.12.4 port 3389 (tcp) failed: Connection refused
+Scan finalizado para 45.33.12.4.
+Iniciando port scan básico no IP 192.168.91.144 (portas 22,80,443,3389).
+nc: connect to 192.168.90.200 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.70.134 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.91.144 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.70.134 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.90.200 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.91.144 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.70.134 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.90.200 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.91.144 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.70.134 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.70.134.
+nc: connect to 192.168.90.200 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.90.200.
+Iniciando port scan básico no IP 192.168.88.201 (portas 22,80,443,3389).
+Iniciando port scan básico no IP 192.168.102.56 (portas 22,80,443,3389).
+nc: connect to 192.168.91.144 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.91.144.
+Iniciando port scan básico no IP 192.168.22.33 (portas 22,80,443,3389).
+nc: connect to 192.168.102.56 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.201 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.22.33 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.102.56 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.201 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.22.33 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.102.56 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.201 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.22.33 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.201 port 3389 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.102.56 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.88.201.
+Scan finalizado para 192.168.102.56.
+Iniciando port scan básico no IP 192.168.88.77 (portas 22,80,443,3389).
+nc: connect to 192.168.22.33 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.22.33.
+nc: connect to 192.168.88.77 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.77 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.77 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.88.77 port 3389 (tcp) timed out: Operation now in progress
+Scan finalizado para 192.168.88.77.
+Port scans concluídos. Resultados guardados na pasta da sessão.
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: 1 - Usuário: user1 | Login: 2026-02-04 07:10:16 | Logout: Sem logout
+2 - Usuário: user2 | Login: 2026-02-04 07:30:47 | Logout: Sem logout
+3 - Usuário: user1 | Login: 2026-02-04 08:22:30 | Logout: Sem logout
+4 - Usuário: user2 | Login: 2026-02-04 08:28:54 | Logout: Sem logout
+5 - Usuário: user1 | Login: 2026-02-04 08:34:45 | Logout: Sem logout
+6 - Usuário: user2 | Login: 2026-02-05 07:45:12 | Logout: Sem logout
+7 - Usuário: user1 | Login: 2026-02-06 09:20:33 | Logout: Sem logout
+8 - Usuário: user2 | Login: 2026-02-07 07:55:42 | Logout: Sem logout
+9 - Usuário: user1 | Login: 2026-02-08 06:20:45 | Logout: Sem logout
+10 - Usuário: user2 | Login: 2026-02-09 09:33:56 | Logout: Sem logout
+11 - Usuário: user3 | Login: 2026-02-10 06:45:29 | Logout: Sem logout
+12 - Usuário: admin | Login: 2026-02-10 20:02:15 | Logout: 2026-02-10 20:15:45
+13 - Usuário: joao | Login: 2026-02-10 20:05:20 | Logout: 2026-02-10 20:45:10
+14 - Usuário: user4 | Login: 2026-02-11 07:55:41 | Logout: Sem logout
+15 - Usuário: user5 | Login: 2026-02-12 08:45:56 | Logout: Sem logout
+Escolha o número da sessão para analisar: Informe o diretório base para procurar alterações (padrão /): Gerando lista de ficheiros alterados entre 2026-02-10 20:02:15 e 2026-02-10 20:15:45...
+Relatório salvo em /mnt/g/branco/GitHub/MESI-LPD-bash/MESI-LPD-bash/2026-02-12T19:34:12/alteracoes_admin_1770925176.txt
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: 1 - Usuário: user1 | Login: 2026-02-04 07:10:16 | Logout: Sem logout
+2 - Usuário: user2 | Login: 2026-02-04 07:30:47 | Logout: Sem logout
+3 - Usuário: user1 | Login: 2026-02-04 08:22:30 | Logout: Sem logout
+4 - Usuário: user2 | Login: 2026-02-04 08:28:54 | Logout: Sem logout
+5 - Usuário: user1 | Login: 2026-02-04 08:34:45 | Logout: Sem logout
+6 - Usuário: user2 | Login: 2026-02-05 07:45:12 | Logout: Sem logout
+7 - Usuário: user1 | Login: 2026-02-06 09:20:33 | Logout: Sem logout
+8 - Usuário: user2 | Login: 2026-02-07 07:55:42 | Logout: Sem logout
+9 - Usuário: user1 | Login: 2026-02-08 06:20:45 | Logout: Sem logout
+10 - Usuário: user2 | Login: 2026-02-09 09:33:56 | Logout: Sem logout
+11 - Usuário: user3 | Login: 2026-02-10 06:45:29 | Logout: Sem logout
+12 - Usuário: admin | Login: 2026-02-10 20:02:15 | Logout: 2026-02-10 20:15:45
+13 - Usuário: joao | Login: 2026-02-10 20:05:20 | Logout: 2026-02-10 20:45:10
+14 - Usuário: user4 | Login: 2026-02-11 07:55:41 | Logout: Sem logout
+15 - Usuário: user5 | Login: 2026-02-12 08:45:56 | Logout: Sem logout
+Escolha o número da sessão para analisar: Informe o diretório base para procurar alterações (padrão /): Gerando lista de ficheiros alterados entre 2026-02-10 20:05:20 e 2026-02-10 20:45:10...
+Relatório salvo em /mnt/g/branco/GitHub/MESI-LPD-bash/MESI-LPD-bash/2026-02-12T19:34:12/alteracoes_joao_1770925199.txt
+Pressione ENTER para voltar ao menu...[H[2J[3J==============================================
+[1;36m1. DETEÇÃO DE INTRUSOS[0m
+[0;36m1.1 - Listar IPs login falhados em um intervalo de tempo[0m
+[0;36m1.2 - Listar IPs login falhados em um intervalo de tempo, primeira e ultima tentativa[0m
+[0;36m1.3 - Identificar logins feitos com sucesso, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+[0;36m1.4 - Identificar logins sucesso ou falha, listar IP, utilizador, data e hora do evento (login ou logout)[0m
+----------------------------------------------
+[1;33m2 - ANALISE REATIVA[0m
+[0;33m2.1 - Port Scan IPs com eventos falhados[0m
+[0;33m2.2 - Listar ficheiros alterados relacionados com login com sucesso[0m
+----------------------------------------------
+[1;35m3 - SAIR[0m
+[0;35m3.1 - SAIR[0m
+Q - Quit / Sair
+==============================================
+Escolha uma opção: [H[2J[3JTempo total de execução: 00:06:08
+Atividades registradas na sessão:
+2026-02-12 19:34:44 - Executou 1.1 com intervalo Jan 01 até Dec 31
+2026-02-12 19:35:18 - Executou 1.2 com intervalo Jan 01 até Dec 31
+2026-02-12 19:36:00 - Executou 1.3
+2026-02-12 19:36:18 - Executou 1.4
+2026-02-12 19:37:05 - Executou 2.1
+2026-02-12 19:38:50 - Executou 2.2
+2026-02-12 19:39:52 - Executou 2.2
+Até breve.

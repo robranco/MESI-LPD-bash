@@ -1,0 +1,4 @@
+Connection to 45.33.12.4 22 port [tcp/ssh] succeeded!
+Connection to 45.33.12.4 80 port [tcp/http] succeeded!
+Connection to 45.33.12.4 443 port [tcp/https] succeeded!
+nc: connect to 45.33.12.4 port 3389 (tcp) failed: Connection refused

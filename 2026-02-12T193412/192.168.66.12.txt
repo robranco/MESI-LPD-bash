@@ -1,0 +1,4 @@
+nc: connect to 192.168.66.12 port 22 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 80 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 443 (tcp) timed out: Operation now in progress
+nc: connect to 192.168.66.12 port 3389 (tcp) timed out: Operation now in progress
